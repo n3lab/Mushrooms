@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE087B7723056B5B00CC15B2 /* PlainDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE087B7623056B5B00CC15B2 /* PlainDataManager.swift */; };
+		FE087B7923056BD100CC15B2 /* StorageManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE087B7823056BD100CC15B2 /* StorageManagerType.swift */; };
+		FE0A6F3323048EED0043307D /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A6F3223048EED0043307D /* CatalogViewModel.swift */; };
+		FE0A6F3523048F330043307D /* CatalogViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A6F3423048F330043307D /* CatalogViewModelType.swift */; };
+		FE0A6F3923048FC50043307D /* Mushroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A6F3823048FC50043307D /* Mushroom.swift */; };
+		FE0A6F3B23049E5B0043307D /* CatalogTableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A6F3A23049E5B0043307D /* CatalogTableViewCellViewModelType.swift */; };
+		FE0A6F3D2304AA880043307D /* CatalogTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A6F3C2304AA880043307D /* CatalogTableViewCellViewModel.swift */; };
+		FE2E5533230D6E7E00FCAC70 /* mushrooms04.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FE2E5532230D6E7E00FCAC70 /* mushrooms04.mlmodel */; };
 		FE7D260022FB9DA200554289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D25FF22FB9DA200554289 /* AppDelegate.swift */; };
-		FE7D260222FB9DA200554289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D260122FB9DA200554289 /* ViewController.swift */; };
+		FE7D260222FB9DA200554289 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D260122FB9DA200554289 /* SearchViewController.swift */; };
 		FE7D260522FB9DA200554289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7D260322FB9DA200554289 /* Main.storyboard */; };
 		FE7D260822FB9DA200554289 /* Mushrooms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE7D260622FB9DA200554289 /* Mushrooms.xcdatamodeld */; };
 		FE7D260A22FB9DA400554289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7D260922FB9DA400554289 /* Assets.xcassets */; };
 		FE7D260D22FB9DA400554289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7D260B22FB9DA400554289 /* LaunchScreen.storyboard */; };
+		FE7D261822FBB30700554289 /* red-white.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FE7D261722FBB30700554289 /* red-white.mlmodel */; };
+		FE7D261E22FC230F00554289 /* СatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D261D22FC230F00554289 /* СatalogViewController.swift */; };
+		FE7D262022FC234800554289 /* MushroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D261F22FC234800554289 /* MushroomViewController.swift */; };
+		FE7D262222FC3B4F00554289 /* CatalogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D262122FC3B4F00554289 /* CatalogTableViewCell.swift */; };
+		FE8ED7052309D6B000F81927 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8ED7042309D6B000F81927 /* UIColor+Extension.swift */; };
+		FE8ED7072309EC2E00F81927 /* SearchViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8ED7062309EC2E00F81927 /* SearchViewModelType.swift */; };
+		FE8ED7092309EC6900F81927 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8ED7082309EC6900F81927 /* SearchViewModel.swift */; };
+		FEB9FF39230525DE00C1B4E5 /* MushroomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB9FF38230525DE00C1B4E5 /* MushroomViewModel.swift */; };
+		FEB9FF3B2305260800C1B4E5 /* MushroomViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB9FF3A2305260800C1B4E5 /* MushroomViewModelType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE087B7623056B5B00CC15B2 /* PlainDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainDataManager.swift; sourceTree = "<group>"; };
+		FE087B7823056BD100CC15B2 /* StorageManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManagerType.swift; sourceTree = "<group>"; };
+		FE0A6F3223048EED0043307D /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
+		FE0A6F3423048F330043307D /* CatalogViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModelType.swift; sourceTree = "<group>"; };
+		FE0A6F3823048FC50043307D /* Mushroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mushroom.swift; sourceTree = "<group>"; };
+		FE0A6F3A23049E5B0043307D /* CatalogTableViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCellViewModelType.swift; sourceTree = "<group>"; };
+		FE0A6F3C2304AA880043307D /* CatalogTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		FE2E5532230D6E7E00FCAC70 /* mushrooms04.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mushrooms04.mlmodel; sourceTree = "<group>"; };
 		FE7D25FC22FB9DA200554289 /* Mushrooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mushrooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7D25FF22FB9DA200554289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE7D260122FB9DA200554289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE7D260122FB9DA200554289 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FE7D260422FB9DA200554289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE7D260722FB9DA200554289 /* Mushrooms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mushrooms.xcdatamodel; sourceTree = "<group>"; };
 		FE7D260922FB9DA400554289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE7D260C22FB9DA400554289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE7D260E22FB9DA400554289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7D261722FBB30700554289 /* red-white.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "red-white.mlmodel"; sourceTree = "<group>"; };
+		FE7D261D22FC230F00554289 /* СatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СatalogViewController.swift"; sourceTree = "<group>"; };
+		FE7D261F22FC234800554289 /* MushroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomViewController.swift; sourceTree = "<group>"; };
+		FE7D262122FC3B4F00554289 /* CatalogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCell.swift; sourceTree = "<group>"; };
+		FE8ED7042309D6B000F81927 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		FE8ED7062309EC2E00F81927 /* SearchViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModelType.swift; sourceTree = "<group>"; };
+		FE8ED7082309EC6900F81927 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		FEB9FF38230525DE00C1B4E5 /* MushroomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomViewModel.swift; sourceTree = "<group>"; };
+		FEB9FF3A2305260800C1B4E5 /* MushroomViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomViewModelType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE0A6F2E230478370043307D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FE087B7623056B5B00CC15B2 /* PlainDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		FE7D25F322FB9DA200554289 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +98,14 @@
 		FE7D25FE22FB9DA200554289 /* Mushrooms */ = {
 			isa = PBXGroup;
 			children = (
+				FE0A6F2E230478370043307D /* Managers */,
+				FE7D261422FB9DF800554289 /* Mlmodel */,
+				FE7D261C22FC228300554289 /* Protocols */,
+				FE7D261B22FC227B00554289 /* Model */,
+				FE7D261A22FC227000554289 /* ViewModel */,
+				FE7D261922FC225100554289 /* View */,
+				FE8ED7022309D66700F81927 /* Extensions */,
 				FE7D25FF22FB9DA200554289 /* AppDelegate.swift */,
-				FE7D260122FB9DA200554289 /* ViewController.swift */,
 				FE7D260322FB9DA200554289 /* Main.storyboard */,
 				FE7D260922FB9DA400554289 /* Assets.xcassets */,
 				FE7D260B22FB9DA400554289 /* LaunchScreen.storyboard */,
@@ -65,6 +113,65 @@
 				FE7D260622FB9DA200554289 /* Mushrooms.xcdatamodeld */,
 			);
 			path = Mushrooms;
+			sourceTree = "<group>";
+		};
+		FE7D261422FB9DF800554289 /* Mlmodel */ = {
+			isa = PBXGroup;
+			children = (
+				FE7D261722FBB30700554289 /* red-white.mlmodel */,
+				FE2E5532230D6E7E00FCAC70 /* mushrooms04.mlmodel */,
+			);
+			path = Mlmodel;
+			sourceTree = "<group>";
+		};
+		FE7D261922FC225100554289 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE7D260122FB9DA200554289 /* SearchViewController.swift */,
+				FE7D261D22FC230F00554289 /* СatalogViewController.swift */,
+				FE7D261F22FC234800554289 /* MushroomViewController.swift */,
+				FE7D262122FC3B4F00554289 /* CatalogTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE7D261A22FC227000554289 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FE8ED7082309EC6900F81927 /* SearchViewModel.swift */,
+				FE0A6F3223048EED0043307D /* CatalogViewModel.swift */,
+				FE0A6F3C2304AA880043307D /* CatalogTableViewCellViewModel.swift */,
+				FEB9FF38230525DE00C1B4E5 /* MushroomViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE7D261B22FC227B00554289 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE0A6F3823048FC50043307D /* Mushroom.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE7D261C22FC228300554289 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FE8ED7062309EC2E00F81927 /* SearchViewModelType.swift */,
+				FE0A6F3423048F330043307D /* CatalogViewModelType.swift */,
+				FE0A6F3A23049E5B0043307D /* CatalogTableViewCellViewModelType.swift */,
+				FEB9FF3A2305260800C1B4E5 /* MushroomViewModelType.swift */,
+				FE087B7823056BD100CC15B2 /* StorageManagerType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FE8ED7022309D66700F81927 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE8ED7042309D6B000F81927 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +245,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7D260222FB9DA200554289 /* ViewController.swift in Sources */,
+				FE8ED7092309EC6900F81927 /* SearchViewModel.swift in Sources */,
+				FE7D260222FB9DA200554289 /* SearchViewController.swift in Sources */,
+				FE7D262022FC234800554289 /* MushroomViewController.swift in Sources */,
+				FEB9FF39230525DE00C1B4E5 /* MushroomViewModel.swift in Sources */,
+				FE7D262222FC3B4F00554289 /* CatalogTableViewCell.swift in Sources */,
+				FE7D261E22FC230F00554289 /* СatalogViewController.swift in Sources */,
+				FE7D261822FBB30700554289 /* red-white.mlmodel in Sources */,
+				FE0A6F3B23049E5B0043307D /* CatalogTableViewCellViewModelType.swift in Sources */,
 				FE7D260822FB9DA200554289 /* Mushrooms.xcdatamodeld in Sources */,
+				FE0A6F3523048F330043307D /* CatalogViewModelType.swift in Sources */,
+				FE0A6F3323048EED0043307D /* CatalogViewModel.swift in Sources */,
 				FE7D260022FB9DA200554289 /* AppDelegate.swift in Sources */,
+				FE0A6F3D2304AA880043307D /* CatalogTableViewCellViewModel.swift in Sources */,
+				FEB9FF3B2305260800C1B4E5 /* MushroomViewModelType.swift in Sources */,
+				FE8ED7072309EC2E00F81927 /* SearchViewModelType.swift in Sources */,
+				FE087B7923056BD100CC15B2 /* StorageManagerType.swift in Sources */,
+				FE2E5533230D6E7E00FCAC70 /* mushrooms04.mlmodel in Sources */,
+				FE0A6F3923048FC50043307D /* Mushroom.swift in Sources */,
+				FE087B7723056B5B00CC15B2 /* PlainDataManager.swift in Sources */,
+				FE8ED7052309D6B000F81927 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
